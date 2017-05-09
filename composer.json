@@ -1,0 +1,6 @@
+{
+    "require": {
+        "yabacon/paystack-php": "^2.1",
+        "paystack/cards-sdk": "^0.1.0"
+    }
+}
