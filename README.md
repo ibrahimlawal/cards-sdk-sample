@@ -1,4 +1,4 @@
-# Barebones Checkout using PaystackJS
+# Barebones Checkout using Paystack Cards SDK
 
 CONTENTS OF THIS FILE
 ---------------------
@@ -14,7 +14,7 @@ CONTENTS OF THIS FILE
  
 ## Introduction
 
-You can now accept card details directly on your website while using PaystackJS to handle the checkout.
+You can now accept card details directly on your website while using Paystack Cards SDK to handle the checkout.
 
 ## Requirements
 
@@ -41,7 +41,7 @@ FOR ANY OF THE FIELDS IN THE PAYMENT FORMS.*
 
 ### [js/main.js](js/main.js)
 
-This handles paystack.js on your behalf leaving you to only style the divs in `pay.html`
+This handles payment on your behalf leaving you to only style the divs in `pay.html`
 
 ### [js/app.js](js/app.js)
 
@@ -81,8 +81,8 @@ To run the sample, navigate to the folder where you unzipped the sample.
 
 Here is a test Verve card you can use with a test secret key:
 
-- Card PAN: `5066666666666666666`
-- Card CVC: `666`
+- Card PAN: `5060666666666666666`
+- Card CVC: `123`
 - Expiry Date: any future date
 - PIN: `1234`
 - OTP: `123456`
@@ -95,5 +95,5 @@ using the issue tracker.
 ## Contact
 
 For more enquiries and technical questions regarding this sample, please post
-on our issue tracker: https://github.com/ibrahimlawal/BarePaystackJS/issues.
+on our issue tracker: https://github.com/ibrahimlawal/cards-sdk-sample/issues.
 
